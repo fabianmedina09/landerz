@@ -5,7 +5,7 @@ axios.get('https://jsonplaceholder.typicode.com/posts').then(async resp => {
   for (const t of testimonials) {
     // swiper.appendSlide(`<div class="constainer swiper-slide"><p>${t.body}</p></div>`)  
     swiper.appendSlide(`<div class=" swiper-slide">
-                          <div class="row">
+                          <div class="wrap row">
                             <div class="col-12">
                               <img class="rounded-circle" src="resources/img/person_${Math.floor(Math.random()*4) + 1}.jpg" style="width: 20%;">
                             </div>                  

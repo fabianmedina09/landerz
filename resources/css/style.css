@@ -17,6 +17,10 @@ h1 {
   font-family: 'truenoexbd';
 }
 
+.wrap {
+  height: 330px !important;
+}
+
 footer {
   font-family: 'truenolt';
   color: #838383;
@@ -55,8 +59,9 @@ footer {
   width: 140px;
   height: 45px;
   font-family: 'truenorg';
-  font-weight: 500;
+  font-weight: 400;
   background-color: #08D3B7;
+  font-size: 0.8em;
   border: none;
   border-radius: 45px;
   box-shadow: 0px 8px 15px rgb(8, 216, 188, 0.4);
@@ -65,7 +70,7 @@ footer {
   outline: none;
   }
 
-.btn-rnd:hover {
+.btn-rnd:hover, .btn-rnd:active, .btn-rnd:focus {
   background-color: rgb(21, 223, 202);
   box-shadow: 0px 15px 20px rgb(8, 216, 188, 0.4);
   color: #fff;
@@ -81,12 +86,20 @@ footer {
   margin-top: 65px !important;
 }
 
+#features {
+  background-color: #F6F6F6;  
+}
+
 #about {
   background-color: #F6F6F6;  
 }
 
 #testimonials {
   text-align: center;
+}
+
+#contact {
+  background-color: #F6F6F6;  
 }
 
 .swiper-container {
@@ -128,6 +141,53 @@ span.swiper-pagination-bullet {
   font-family: 'truenolt';
   font-size: 0.9em;
   color: black;
+}
+
+.card-title {
+  font-family: 'truenorg';
+  font-size: 0.8em;
+  color: black;
+}
+
+.card-subtitle {
+  font-family: 'truenorg';
+  font-size: 0.7em;
+  color: black;
+}
+
+.card-text {
+  font-family: 'truenolt';
+  font-size: 0.75em;
+  color: #838383;
+}
+
+.card-link {
+  font-family: 'truenorg';
+  font-size: 0.75em;
+  color: #08D3B7;
+}
+
+.card-link:hover, .card-link:active, .card-link:focus {
+  color: rgb(21, 223, 202);
+}
+
+.icons {
+  width: 1.8rem;
+  height: 1.8rem;
+  color: white;
+  font-size: 14px;
+  background-color: #08D3B7;
+  border-radius: 50%;
+  padding: 0.5rem;
+  box-shadow: 0px 8px 15px rgb(8, 216, 188, 0.4);
+  transition: all 0.3s ease 0s;
+}
+
+.check {
+  width: 1.8rem;
+  height: 1.8rem;
+  color: #89C541;
+  font-size: 16px;
 }
 
 @media (min-width: 991px) { 
