@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'truenoexbd';
+  src: url('../fonts/trueno/truenoexbd.otf') format("opentype")
+}
+
+@font-face {
+  font-family: 'truenorg';
+  src: url('../fonts/trueno/truenorg.otf') format("opentype")
+}
+
+@font-face {
+  font-family: 'truenolt';
+  src: url('../fonts/trueno/truenolt.otf') format("opentype")
+}
+
+h1 {
+  font-family: 'truenoexbd';
+}
+
+footer {
+  font-family: 'truenolt';
+  color: #838383;
+  font-size: 0.7rem;
+}
+
+.navbar {
+  font-family: 'truenolt';
+  background-color: white;
+}
+
+.navbar-nav>li.nav-item {
+  margin-right: 1.4rem;
+}
+
+.navbar-nav>li.nav-item>a.nav-link{
+  color: black;
+}
+
+.navbar-nav>li.nav-item.active>a.nav-link,
+.navbar-nav>li.nav-item:hover>a.nav-link{
+  color:#08D3B7;
+}
+
+.logo {
+  font-family: 'truenorg';
+  margin-bottom: 0;
+  font-size: 1.8em;
+}
+
+.point {
+  color: #08D3B7
+}
+
+.btn-rnd {
+  width: 140px;
+  height: 45px;
+  font-family: 'truenorg';
+  font-weight: 500;
+  background-color: #08D3B7;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgb(8, 216, 188, 0.4);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+.btn-rnd:hover {
+  background-color: rgb(21, 223, 202);
+  box-shadow: 0px 15px 20px rgb(8, 216, 188, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.margin{
+  margin: 20px 0 15px 0;
+  padding: 100px 0 85px 0;
+}
+
+#home {
+  margin-top: 65px !important;
+}
+
+#about {
+  background-color: #F6F6F6;  
+}
+
+#testimonials {
+  text-align: center;
+}
+
+.swiper-container {
+  width: 80%;
+}
+
+.swiper-wrapper {
+  margin-top: 26px;
+  height: auto !important;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+span.swiper-pagination-bullet {
+  background-color: #08D3B7;
+}
+
+.cite {
+  font-family: 'truenolt';
+  font-size: 1.2em;
+  color: #838383;
+}
+
+.name {
+  font-family: 'truenolt';
+  font-size: 0.9em;
+  color: black;
+}
+
+@media (min-width: 991px) { 
+  nav > .logo {
+    display:none;
+  }
+}
+
+@media (max-width: 991px) { 
+  .titleLogo {
+    display:none;
+  }
+  nav > .logo {
+    margin-left: 1.5rem;
+  }
+}
